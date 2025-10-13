@@ -1,0 +1,11 @@
+name = "Clemento"
+grammar = "clemento"
+path_suffixes = ["clem"]
+line_comments = ["// "]
+block_comment = ["/* ", " */"]
+brackets = [
+  { start = "{", end = "}", close = true, newline = true },
+  { start = "[", end = "]", close = true, newline = true },
+  { start = "(", end = ")", close = true, newline = true },
+  { start = "\"", end = "\"", close = true, newline = false },
+]

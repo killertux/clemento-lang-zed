@@ -1,0 +1,10 @@
+id = "clemento"
+name = "ClementoLang"
+version = "0.0.1"
+schema_version = 1
+authors = ["Bruno Clemente <bruno.canguru@hotmail.com>"]
+description = "Zed Extension for ClementoLang"
+
+[grammars.clemento]
+repository = "https://github.com/killertux/tree-sitter-clemento"
+commit = "42fabc71ebc61fd56c742d9d53f270c20fc2218b"
