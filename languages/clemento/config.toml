@@ -9,3 +9,19 @@ brackets = [
   { start = "(", end = ")", close = true, newline = true },
   { start = "\"", end = "\"", close = true, newline = false },
 ]
+
+# Auto-pairs for ClementoLang
+auto_pairs = [
+  { start = "{", end = "}" },
+  { start = "(", end = ")" },
+  { start = "\"", end = "\"" },
+]
+
+# Word characters for ClementoLang identifiers
+word_characters = ["_"]
+
+# Highlight matching brackets
+matching_brackets = [
+  { start = "{", end = "}" },
+  { start = "(", end = ")" },
+]
